@@ -1,0 +1,131 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+li,
+a,
+button {
+  text-decoration: none;
+}
+.top-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/banner-top.jpg);
+  background-size: cover;
+  height: 600px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+}
+.logo {
+  cursor: pointer;
+}
+.nav-links {
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+  color: rgba(241, 241, 241, 0.933);
+}
+.nav-links li a:hover {
+  background-color: rgba(128, 231, 9, 0.871);
+  color: rgb(252, 252, 252);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+button {
+  padding: 9px 25px;
+  background-color: rgba(67, 251, 0, 0.77);
+  color: aliceblue;
+  font-size: 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgb(73, 84, 235);
+  color: white;
+}
+.top-textarea {
+  justify-content: space-between;
+  text-align: left;
+  color: white;
+  padding: 150px 200px;
+}
+h1 {
+  font-size: 50px;
+}
+p {
+  font-size: 20px;
+}
+.blog1 {
+  justify-content: center;
+  margin-top: 100px;
+  display: flex;
+}
+.container1 {
+  width: 35%;
+  padding: 20px;
+}
+.card-heading {
+  margin-top: 100px;
+  justify-content: center;
+  text-align: center;
+}
+.card-head {
+  justify-content: center;
+  margin-top: 20px;
+  display: flex;
+}
+.card-body {
+  width: 35%;
+  padding: 20px;
+  display: flex;
+}
+.card-data {
+  background-color: rgb(247, 236, 236);
+  padding: 20px;
+  border-radius: 2px;
+}
+.img-card {
+  justify-content: center;
+  margin: 20px;
+  display: flex;
+}
+.card-head2 {
+  justify-content: center;
+  margin: 20px;
+  display: flex;
+}
+.card {
+  width: 25%;
+  padding: 20px;
+  border: solid 1px rgb(128, 231, 9);
+}
+footer {
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+  background-color: rgba(4, 5, 45, 0.842);
+  padding: 20px;
+  margin: 0;
+}
+footer h2 {
+  font-family: "Inter", sans-serif;
+  font-family: "Lobster", cursive;
+  color: rgb(211, 55, 55);
+}
+footer h5 {
+  color: white;
+}
